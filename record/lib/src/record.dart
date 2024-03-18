@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
-import 'package:record_platform_interface/record_platform_interface.dart';
+import 'package:record_platform_interface_old/record_platform_interface_old.dart';
 
 /// Audio recorder API
 class Record implements RecordPlatform {

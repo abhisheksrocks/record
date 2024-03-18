@@ -1,10 +1,10 @@
 import 'dart:async';
+import 'dart:core';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:record/record.dart';
-
 import 'package:record_example/audio_player.dart';
+import 'package:record_old/record.dart';
 
 void main() => runApp(const MyApp());
 

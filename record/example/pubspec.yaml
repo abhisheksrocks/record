@@ -13,24 +13,25 @@ environment:
 dependencies:
   path_provider: ^2.0.1
   audioplayers: ^1.0.1
+  file: ^7.0.0
 
   flutter:
     sdk: flutter
 
-  record:
+  record_old:
     path: ../
 
-# dependency_overrides:
-#   record_platform_interface:
-#     path: ../../record_platform_interface
-#   record_web:
-#     path: ../../record_web
-#   record_windows:
-#     path: ../../record_windows
-#   record_macos:
-#     path: ../../record_macos
-#   record_linux:
-#     path: ../../record_linux
+dependency_overrides:
+  record_platform_interface_old:
+    path: ../../record_platform_interface_old
+  record_web_old:
+    path: ../../record_web_old
+  record_windows_old:
+    path: ../../record_windows_old
+  record_macos_old:
+    path: ../../record_macos_old
+  record_linux_old:
+    path: ../../record_linux_old
 
 dev_dependencies:
   flutter_lints: ^2.0.0
